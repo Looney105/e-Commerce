@@ -1,0 +1,138 @@
+.basket{
+    margin-top: 11.4vh;
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.basketcnt{
+    background-color: white;
+    min-height: 600px;
+    width: 1400px;
+    position: relative;
+}
+.basketcnt h1 {
+    margin: 10px;
+    margin-left:50px ;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 300;
+    opacity: 0.8;
+}
+.basketcnt .productarea {
+    height: auto;
+    width: 80%;
+    
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+    
+}
+.productarea .product { 
+display: flex;
+align-items: center;
+position: relative;
+border: 1px solid gray;
+}
+.productarea .product img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+   
+    margin: 2px;
+}
+.productarea .product .title {
+    position: absolute;
+    left: 12%;
+    top: 16%;
+    font-size: 20px;
+} 
+.productarea .product .price {
+    position: absolute;
+    left: 13%;
+    top: 61%;
+    font-size: 25px;
+} 
+.productarea .product .trash {
+    position: absolute;
+    left: 94%;
+    top: 53%;
+    font-size: 30px;
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+.productarea .product .trash:hover {
+   background-color: #FEA1A1;
+   transition: .5s ease-in-out;
+   font-size: 27px;
+   left: 94.1%;
+
+} 
+
+.basketcnt .productarea .product {
+    width: 95%;
+    height: 120px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    
+} 
+.basketcnt .orderinfo {
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    border: 1px solid gray;
+    right: 10px;
+    top: 12%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.basketcnt .orderinfo .btn1{
+    height: 45px;
+    width: 180px;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    top: 65%;
+    
+}
+.basketcnt .orderinfo .btn2{
+    height: 30px;
+    width: 120px;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    top: 86%;
+    background-color: orange;
+}
+
+.basketcnt .orderinfo span:nth-child(2){
+    position: absolute;
+    top: 40%;
+    font-size: 20px;
+}
+.basketcnt .orderinfo span:nth-child(3){
+    position: absolute;
+    top: 30%;
+    font-size: 20px;
+
+}
+.basketcnt .orderinfo span:nth-child(4){
+    position: absolute;
+    top: 50%;
+    font-size: 25px;
+}
+.basketcnt .orderinfo .subtotal{
+    position: absolute;
+    top: 80%;
+}
+

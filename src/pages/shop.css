@@ -1,0 +1,17 @@
+.shop{
+    margin-top: 13vh;
+    text-align: center;
+    position: relative;
+    min-height: 100%;     
+}
+.shopad{
+    position: relative;
+  
+}
+.shopad img{
+    height: 60vh;
+    width: 60vw;
+}
+
+
+  

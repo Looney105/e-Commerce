@@ -1,0 +1,33 @@
+
+.recommended{
+   position: absolute;
+   top: 15vh;
+   left: 67.5vw;
+   height: 50vh;
+   width: 30vw;
+   
+   border-radius:2vh ;
+   z-index: 0;
+}
+.advertisement{
+   height: 30vh;
+   width: 29vw;
+   position: absolute;
+   top: 66vh;
+   left: 68vw;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.advertisement img {
+   object-fit:cover;
+   display: block;
+   height: 100%;
+   width: 100%;
+   border-radius: 4vh;
+}
+.welcome{
+   display: block;
+   min-height: 100vh;
+}

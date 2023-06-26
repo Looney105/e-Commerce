@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+.navbar{
+background-color: white;
+height: 10vh;
+width: 100%;
+position: fixed;
+z-index: 1;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+
+}
+.containerbtmnav{
+    background-color: #0A4D68;
+    position: fixed;
+    height: 4vh;
+    width: 100%;
+    top: 10vh;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.bottomnavbar{
+    background-color: #0A4D68;
+    color: white;
+    position: absolute;
+    height: 4vh;
+    width: 100%;
+    z-index: 1;
+    
+    
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    animation: slideshow 80s infinite linear;
+}
+
+@keyframes slideshow {
+    0%{
+        left:100%
+    }
+    100%{
+        left:-100%
+    }
+}
+
+img{
+    height: 8vh;
+    width: 14vh;
+    
+    
+
+}
+.link{
+   margin: 2.3vw;
+   padding: 2.3vw;
+   font-size: 3vh;
+  text-decoration:none;
+   color: black;
+   font-weight: bold;
+   padding-bottom: 1vh;
+   border-bottom: 2px solid #F6BA6F;
+   border-bottom-left-radius: 15%;
+   font-family: 'Fjalla One', sans-serif;
+   opacity: 0.9;
+}
+.link:hover{
+    color:#F6BA6F;
+    background-color: #F0F0F0;
+    
+}
+
+.icon{
+    margin: 0.8vw;
+    height: 2.6vh;
+    width: 2.6vw;
+}
+.iconlink{
+  text-decoration:none;
+  color: black;
+
+}
+
+.inputoff{
+    position: fixed;
+    background-color: #F6BA6F;
+    visibility: hidden;
+    top: 11vh;
+    left: 47vw;
+    border: none;
+    border-radius: 30px;
+    height: 2vh;
+    width: 10vw;
+    transition: 1s;
+    z-index: 0;
+   
+}
+.inputon{
+    
+    position: fixed;
+    visibility: visible;
+    top: 17vh;
+    left: 32vw;
+    border: none;
+    border-radius: 30px;
+    height: 6vh;
+    width: 35vw;
+    transition: 1s;
+    z-index: 1;
+    
+}
+.buttonon{
+    margin: 0;
+    position: fixed;
+    visibility: visible;
+    top: 16.2vh;
+    left: 53.5vw;
+    border: none;
+    border-radius: 30px;
+    height: 3.5vh;
+    width: 24vw;
+    transition: 1s;
+    z-index: 1;
+    
+}
+
+
+  
